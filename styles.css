@@ -73,6 +73,15 @@ dl.descriptionList {
     text-align: center;
 }
 
+dl dd {
+    display: list-item;
+    overflow: hidden;
+    background: aliceblue;
+    padding: 5px 10px;
+    color: black;
+    margin: 0 3px;
+}
+
 #home .profile-icon {
     width: 300px;
     border-radius: 50%;
@@ -85,6 +94,7 @@ dl.descriptionList {
 
 #food .profile-icon {
     width: 300px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -95,6 +105,7 @@ dl.descriptionList {
 
 #game .profile-icon {
     width: 300px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -133,8 +144,24 @@ footer {
     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('pictures/rainstorm.jpg');
 }
 
-#interests #movie #food #book #game {
-    background-color: lightblue;
+#interests {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('pictures/shonen.webp');
+}
+
+#movie {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('pictures/cinema.webp');
+}
+
+#food {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('pictures/cookingbg.jpg');
+}
+
+#book {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('pictures/bookshelfs.jpg');
+}
+
+#game {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('pictures/cyberpunklofi.png');
 }
 
 @media only screen and (max-width: 600px) {
