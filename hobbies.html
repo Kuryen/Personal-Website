@@ -1,79 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My personal website developed for a Web Science and Technology Class.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Shawn Arlantico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Hobbies</title>
-    <h1>Hobbies Page</h1>
-    <p>More things about me.</p>
-    <hr>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 
-    <body>
-        <section>
-            <h4>Favorite Recipe</h4>
-            <p>A recipe I enjoy, including ingredients and instructions.</p>
-            <b>Pinapaitan</b><br>
-            <img src="pictures/pinapaitan.jpeg" alt="Fav food">
-            <details>
-                <summary>Ingredients:</summary>
-                <ul>
-                    <li>600g ox tripe, cleaned, cooked and sliced into small pieces</li>
-                    <li>250g beef heart, sliced into small pieces</li>
-                    <li>250g beef liver, sliced into small pieces</li>
-                    <li>250g beef brisket, sliced into small pieces</li>
-                    <li>3 pcs medium sized bitter gourd, seeded and sliced into large chunks</li>
-                    <li>1 big packet sinigang mix (tamarind mix)</li>
-                    <li>1 to 1.5 liters beef stock</li>
-                    <li>1/2 cup cane vinegar</li>
-                    <li>1 whole garlic, minced</li>
-                    <li>1 thumb size ginger, crushed and sliced finely</li>
-                    <li>2 medium size red onion, chopped</li>
-                    <li>6 green finger chillies (siling haba)</li>
-                    <li>1 tbsp cayenne pepper</li>
-                    <li>fish sauce</li>
-                    <li>salt</li>
-                    <li>freshly ground black pepper</li>
-                    <li>oil</li>
-                </ul>
-            </details>
+<body>
+    <header>
+        <img src="pictures/Killua.jpg" class="profile-icon">
+        <nav>
+            <ul>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#movie">Movie</a></li>
+                <li><a href="#food">Food</a></li>
+                <li><a href="#book">Book</a></li>
+                <li><a href="#game">Game</a></li>
+                <li><a href="../index.html">Home</a></li>
 
-            <details>
-                <summary>Instructions:</summary>
-                <ol>
-                    <li>Marinate liver for 30 minutes in vinegar then set aside.</li>
-                    <li>In a pot sauté garlic, ginger and onion in oil.</li>
-                    <li>Add all meat ingredients except for the liver, stir fry for 1 and brown on all sides</li>
-                    <li>Add beef stock, bitter gourd and chillies (do not slice). Bring to a boil and simmer for 45 minutes.</li>
-                    <li>Drain the vinegar out of the liver.</li>
-                    <li>Remove the chunks of bitter gourd and place them on a blender, blend well.</li>
-                    <li>Place blended bitter gourd into a fine sieve or a muslin cloth, run some hot stock on top while draining directly on the pot, this will get the maximum bitterness of the bitter gourd while making the soup clear.</li>
-                    <li>Add sinigang mix and liver simmer for additional 10 minutes, you might need to reduce the amount of sinigang mix according to the sourness you like.</li>
-                    <li>Flavour with fish sauce (according to your taste) and season with freshly ground black pepper.</li>
-                </ol>
-            </details>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="interests">
+            <h2>My Interests</h2>
+            <p>A list of my interests:</p>
+            <dl class="descriptionList">
+                <dt><b>Video Games</b></dt>
+                <dd>Single-player open-world</dd>
+                <dt><b>Music</b></dt>
+                <dd>Jazz, R&B, Pop</dd>
+                <dt><b>Spanish and Japanese culture</b></dt>
+                <dd>Food and Entertainment</dd>
+                <dt><b>Reading</b></dt>
+                <dd>Sci-fi, Fantasy, Non-fiction</dd>
+                <dt><b>Cooking</b></dt>
+                <dd>Filipino and Italian</dd>
+                <dt><b>Watching Movies/Shows</b></dt>
+                <dd>I'm not too picky with the shows and movies I watch</dd>
+            </dl>
         </section>
-        <br>
+    </main>
 
-        <section>
-            <h4>My Favorite Book</h4>
-            <p>An introduction to my love for reading:</p>
-            <details>
-                <summary><img src="pictures/zeroboxer.jpg" alt="Fav book"></summary>
-                <q>Fame and glory can all come crashing down in a split second, the truth reveales itself and your reality crumbles.</q>
-            </details>
-        </section>
-        <br>
+    <section id="movie">
+        <div class="container">
+            <img src="pictures/rushHour2.jpg" class="profile-icon">
+            <h3>Favorite Movie</h2>
+                <p>The movie that reminds me of simpler times.</p>
+        </div>
+    </section>
 
-        <section>
-            <h4>My Favorite Video Game</h4>
-            <p>A game I can play over and over again without fail.</p>
-            <details>
-                <summary><img src="pictures/ac4.jpg" alt="Fav game"></summary>
-                <q>The fourth installment in the <abbr title="Assassin's Creed">AC</abbr> franchise, taking place during the golden age of piracy in the West Indies.</q>
-            </details>
-        </section>
-    </body>
-    <hr>
-    
-    <h6>beep</h6>
-    <a href="../index.html">
-        <img src="../pictures/prevpage.png" alt="Previous Icon">
-    </a>
+    <section id="food">
+        <div class="container">
+            <img src="pictures/pinapaitan.jpg" class="profile-icon">
+            <h3>Favorite Food</h2>
+                <p>My comfort food</p>
+        </div>
+    </section>
+
+    <section id="book">
+        <div class="container">
+            <img src="pictures/zeroboxer.jpg" class="profile-icon">
+            <h3>My Favorite Book</h2>
+                <q>One of the best books I've read, and I don't do a lot of reading, take it as you will.</q>
+        </div>
+    </section>
+
+    <section id="game">
+        <div class="container">
+            <img src="pictures/ac4.avif" class="profile-icon">
+            <h3>My Favorite Video Game</h2>
+                <q>The fourth installment in the <abbr title="Assassin's Creed">AC</abbr> franchise, taking place
+                    during
+                    the
+                    golden age of piracy in the West Indies.</q>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>© Copyright 2023 Shawn Arlantico All Rights Reserved</p>
+    </footer>
+</body>
+
 </html>
