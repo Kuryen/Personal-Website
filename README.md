@@ -1,2 +1,2 @@
 # Personal-Website
-My personal website
+My deployed website on Netlify
