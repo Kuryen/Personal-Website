@@ -11,6 +11,8 @@ body {
     font-style: normal;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
+    background-color: white;
+    color: black;
     text-align: center;
     justify-content: center;
 }
@@ -63,8 +65,19 @@ section {
     background-attachment: fixed;
 }
 
-div.container,
-main.container {
+#cooking {
+    background-color: #ec7028;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5px;
+    border-style: dashed;
+    font-size: 15px;
+}
+
+div.container {
     text-align: center;
 }
 
