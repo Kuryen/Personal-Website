@@ -1,3 +1,2 @@
 # Personal-Website
-My deployed website on Netlify
-<a href="https://shawn-personal-website.netlify.app"></a>
+My deployed website on <a href="https://shawn-personal-website.netlify.app">Netlify</a>
