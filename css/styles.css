@@ -181,18 +181,18 @@ footer {
 
     header {
         height: auto;
+        overflow-x: auto;
     }
 
     .navbar {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
 
     .navbar a {
         float: none;
         width: auto;
-        padding: 10px 0;
+        padding: 10px 20px;
     }
 
     section {
@@ -201,23 +201,23 @@ footer {
 
     #home h1 {
         font-size: 32px;
+    }
 
-        section h2 {
-            font-size: 24px;
-        }
+    section h2 {
+        font-size: 24px;
+    }
 
-        section h3 {
-            font-size: 18px;
-        }
+    section h3 {
+        font-size: 18px;
+    }
 
-        #cooking {
-            font-size: 12px;
-        }
+    #cooking {
+        font-size: 12px;
+    }
 
-        #food .profile-icon,
-        #game .profile-icon {
-            width: 150px;
-            height: 150px;
-        }
+    #food .profile-icon,
+    #game .profile-icon {
+        width: 150px;
+        height: 150px;
     }
 }
